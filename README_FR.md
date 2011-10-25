@@ -20,11 +20,11 @@ Il y a deux dossiers principaux : `www/` et `nw/`, comme leurs nom peuvent l'ind
 ###Le dossier `www`
 
 Commençons par le plus simple, le dossier `www/` :
-Il y a peu de fichiers dans ce dossier: 
-+ `index?php` 
-+ `goulot.php`
-+ `admin.php` et le dossier
-+ `media/`
+Il y a peu de fichiers dans ce dossier:
+ + `index?php` 
+ + `goulot.php`
+ + `admin.php` et le dossier
+ + `media/`
 
 La page `index.php` est l'entrée pour les fichiers contenus dans le dossier `nw/page/`, il inclura,s'il existe, le fichier nommé dans le paramètre _get_ 'page'.
 La page `goulot.php` est l'entrée pour les fichiers contenus dans le dossier `nw/ajax/`, il inclura, s'il existe, le fichier nommé dans le paramètre _get_ 'page'.
