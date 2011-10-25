@@ -1,16 +1,18 @@
-###Balsa est un "framework" php minimaliste, les _"_ sont là car Balsa est très petit et limité en lui même.
-Il est défini en une structure simple ou chaque chose est à sa place pour votre projet.
+##Balsa est un "framework" php minimaliste
+Les _"_ sont là car Balsa est très léger et limité en lui même.
+
+Il est défini en structure simple, ou chaque chose est à sa place pour votre projet.
 
 Pour installer Balsa, il faut :
-- extraire le contenu de l'archive dans un répertoire accessible depuis le web 
-- se rendre sur l'url qui pointe sur le fichier `install.php` depuis le navigateur
-- remplissez le formulaire
+1. extraire le contenu de l'archive dans un répertoire accessible depuis le web 
+2. se rendre sur l'url qui pointe sur le fichier `install.php` depuis le navigateur
+3. remplissez le formulaire
 
 Vous devriez être bon pour commencer ^^
 
-Info: Un Back office est accessible via la page `admin.php`
+> Info: Un Back office est accessible via la page `admin.php`
 
-A propos de la structure :
+##A propos de la structure :
 
 Il y a deux dossiers principaux : `www/` et `nw/`, comme leurs nom peuvent l'indiquer le dossier `www/` sera accessible depuis le web et le dossier `nw/` ne le sera pas (dans un monde parfait.)
 
@@ -29,10 +31,10 @@ La page `goulot.php` est l'entrée pour les fichiers contenus dans le dossier `n
 `admin.php` a un rôle identique au deux fichier précèdent sauf qu'il gère les requêtes pour le back office.
 
 Dans le dossier `media/` vous trouverez les sous dossier suivant :
-* `css/`  qui contient la version compressé par balsa des diffèrent fichiers _css_
-* `js/`   qui marche de la meme maniere que `css/`` mais avec les fichiers _javascript_
-* `img/`  qui contiendra les images
-* `font/` qui contiendra les différentes polices d'écritures
++ `css/`  qui contient la version compressé par balsa des diffèrent fichiers _css_
++ `js/`   qui marche de la meme maniere que `css/`` mais avec les fichiers _javascript_
++ `img/`  qui contiendra les images
++ `font/` qui contiendra les différentes polices d'écritures
 
 ###Le dossier `nw`
 
