@@ -21,7 +21,15 @@ Le dossier `nw/` lui ne le sera pas (dans un monde parfait.)
 ### Le dossier `www`
 
 Commençons par le plus simple, le dossier `www/` :
+<<<<<<< HEAD
 Il y a peu de fichiers dans ce dossier: 
+=======
+Il y a peu de fichiers dans ce dossier:
+ + `index?php` 
+ + `goulot.php`
+ + `admin.php` et le dossier
+ + `media/`
+>>>>>>> 67985cfc7b3bc117d4187a0d6768a84bab8aec52
 
 + `index.php` :
 
