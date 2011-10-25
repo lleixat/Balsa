@@ -4,9 +4,9 @@ Les _"_ sont là car Balsa est très léger et limité en lui même.
 Il est défini en structure simple, ou chaque chose est à sa place pour votre projet.
 
 Pour installer Balsa, il faut :
-1. extraire le contenu de l'archive dans un répertoire accessible depuis le web 
-2. se rendre sur l'url qui pointe sur le fichier `install.php` depuis le navigateur
-3. remplissez le formulaire
+1. extraire le contenu de l'archive dans un répertoire accessible depuis le web.
+2. se rendre sur l'url qui pointe sur le fichier `install.php` depuis le navigateur.
+3. remplissez le formulaire.
 
 Vous devriez être bon pour commencer ^^
 
@@ -21,18 +21,18 @@ Il y a deux dossiers principaux : `www/` et `nw/`, comme leurs nom peuvent l'ind
 
 Commençons par le plus simple, le dossier `www/` :
 Il y a peu de fichiers dans ce dossier: 
-* `index?php` 
-* `goulot.php`
-* `admin.php` et le dossier
-* `media/`
++ `index?php` 
++ `goulot.php`
++ `admin.php` et le dossier
++ `media/`
 
-La page `index.php` est l'entrée pour les fichiers contenus dans le dossier `nw/page/`, il inclura,s'il existe, le fichier nommé dans le paramètre _get_ 'page'
-La page `goulot.php` est l'entrée pour les fichiers contenus dans le dossier `nw/ajax/`, il inclura, s'il existe, le fichier nommé dans le paramètre _get_ 'page'
+La page `index.php` est l'entrée pour les fichiers contenus dans le dossier `nw/page/`, il inclura,s'il existe, le fichier nommé dans le paramètre _get_ 'page'.
+La page `goulot.php` est l'entrée pour les fichiers contenus dans le dossier `nw/ajax/`, il inclura, s'il existe, le fichier nommé dans le paramètre _get_ 'page'.
 `admin.php` a un rôle identique au deux fichier précèdent sauf qu'il gère les requêtes pour le back office.
 
 Dans le dossier `media/` vous trouverez les sous dossier suivant :
 + `css/`  qui contient la version compressé par balsa des diffèrent fichiers _css_
-+ `js/`   qui marche de la meme maniere que `css/`` mais avec les fichiers _javascript_
++ `js/`   qui marche de la même manière que `css/`` mais avec les fichiers _javascript_
 + `img/`  qui contiendra les images
 + `font/` qui contiendra les différentes polices d'écritures
 
@@ -40,13 +40,13 @@ Dans le dossier `media/` vous trouverez les sous dossier suivant :
 
 Et maintenant le plat de résistance, le dossier `nw/` :
 Vous trouverez ici le fichier `init.php` et les dossiers suivant :
-* `admin`,
-* `ajax`,
-* `data`,
-* `fonction`,
-* `install`,
-* `media`,
-* `page`
++ `admin`,
++ `ajax`,
++ `data`,
++ `fonction`,
++ `install`,
++ `media`,
++ `page`
 
 Le fichier `init.php` est la première partie de logiciel, il initialise les différentes constantes utilisées
  
@@ -78,4 +78,4 @@ C'est à peu près tout :D
 ###Contributions
 
 En lui même le projet ne devrait pas évoluer trop fortement, la structure devrais rester fortement identique.
-Seule la partie _admin_ est en évolution constante
+Seule la partie _admin_ est en évolution constante.
