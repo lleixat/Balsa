@@ -3,6 +3,8 @@ Les _"_ sont là car Balsa est très léger et limité en lui même.
 
 Il est défini en structure simple, ou chaque chose est à sa place pour votre projet.
 
+## Installation :
+
 Pour installer Balsa, il faut :
 
 1. extraire le contenu de l'archive dans un répertoire accessible depuis le web.
@@ -21,15 +23,7 @@ Le dossier `nw/` lui ne le sera pas (dans un monde parfait.)
 ### Le dossier `www`
 
 Commençons par le plus simple, le dossier `www/` :
-<<<<<<< HEAD
 Il y a peu de fichiers dans ce dossier: 
-=======
-Il y a peu de fichiers dans ce dossier:
- + `index?php` 
- + `goulot.php`
- + `admin.php` et le dossier
- + `media/`
->>>>>>> 67985cfc7b3bc117d4187a0d6768a84bab8aec52
 
 + `index.php` :
 
@@ -101,6 +95,7 @@ et les dossiers suivant :
 + `page`
 
     Le dossier page contient tout les fichier appeler via le paramètre get 'page' dans `index.php`
+
 
 
 C'est à peu près tout :D
